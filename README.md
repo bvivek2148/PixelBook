@@ -15,4 +15,3 @@ A modern React component library built with TypeScript and styled with TailwindC
 ```bash
 npm install pixelbook
 ```
-
