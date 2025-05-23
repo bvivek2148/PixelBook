@@ -1,0 +1,7 @@
+import{R as a}from"./index-B0WjJBI_.js";import{t as o}from"./bundle-mjs-CLJs87Zn.js";import"./_commonjsHelpers-CqkleIqs.js";const e=({size:i="md",className:m})=>{const l={sm:"w-4 h-4",md:"w-6 h-6",lg:"w-8 h-8"};return a.createElement("div",{className:o("animate-spin rounded-full border-2 border-current border-t-transparent",l[i],m),role:"status","aria-label":"loading"},a.createElement("span",{className:"sr-only"},"Loading..."))};e.__docgenInfo={description:"",methods:[],displayName:"Spinner",props:{size:{required:!1,tsType:{name:"union",raw:"'sm' | 'md' | 'lg'",elements:[{name:"literal",value:"'sm'"},{name:"literal",value:"'md'"},{name:"literal",value:"'lg'"}]},description:"",defaultValue:{value:"'md'",computed:!1}},className:{required:!1,tsType:{name:"string"},description:""}}};const u={title:"Components/Feedback/Spinner",component:e,parameters:{layout:"centered"},tags:["autodocs"]},r={render:()=>React.createElement("div",{className:"space-x-4"},React.createElement(e,{size:"sm"}),React.createElement(e,{size:"md"}),React.createElement(e,{size:"lg"}))};var s,n,t;r.parameters={...r.parameters,docs:{...(s=r.parameters)==null?void 0:s.docs,source:{originalSource:`{
+  render: () => <div className="space-x-4">\r
+      <Spinner size="sm" />\r
+      <Spinner size="md" />\r
+      <Spinner size="lg" />\r
+    </div>
+}`,...(t=(n=r.parameters)==null?void 0:n.docs)==null?void 0:t.source}}};const g=["SpinnerSizes"];export{r as SpinnerSizes,g as __namedExportsOrder,u as default};
