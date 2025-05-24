@@ -1,3 +1,4 @@
+import React from 'react';
 import '../src/index.css'
 import { withThemeByClassName } from '@storybook/addon-styling';
 
