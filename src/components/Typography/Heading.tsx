@@ -1,4 +1,5 @@
-import { HeadingProps } from './types'
+import React from 'react';
+import { HeadingProps } from './types';
 
 export const Heading = ({
   children,

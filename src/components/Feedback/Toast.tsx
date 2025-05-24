@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 
-export type ToastType = 'info' | 'success' | 'error' | 'warning'
+export type ToastType = 'info' | 'success' | 'error' | 'warning';
 
 interface ToastProps {
   type?: ToastType

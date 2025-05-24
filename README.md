@@ -17,7 +17,7 @@
 > *(Replace the URL with a real screenshot or GIF once deployed)*
 
 ### 🌐 Live Preview
-> **Storybook Deployment:** [View Pixelbook on Vercel](https://your-vercel-deployment-url.vercel.app/)
+> **Storybook Deployment:** [View Pixelbook on Vercel](https://pixelbook-51gu0npss-vivek-bukkas-projects.vercel.app/?path=/docs/components-feedback--docs)
 
 ---
 
