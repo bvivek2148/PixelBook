@@ -17,7 +17,7 @@
 > *(Replace the URL with a real screenshot or GIF once deployed)*
 
 ### 🌐 Live Preview
-> **Storybook Deployment:** [Coming Soon via Chromatic](https://www.chromatic.com/) or [Vercel](https://vercel.com/)
+> **Storybook Deployment:** [View Pixelbook on Vercel](https://your-vercel-deployment-url.vercel.app/)
 
 ---
 
@@ -106,6 +106,59 @@ Pixelbook/
 ├── package.json
 ├── tailwind.config.ts
 └── README.md
+
+
+
+
+-----------------OR-----------------
+
+
+
+Pixelbook/
+├── .gitignore
+├── .storybook/
+│   ├── main.js
+│   ├── preview-head.html
+│   ├── preview.js
+│   └── vitest.setup.js
+├── LICENSE
+├── README.md
+├── package-lock.json
+├── package.json
+├── src/
+│   ├── components/
+│   │   ├── Feedback/
+│   │   ├── Input/
+│   │   ├── Typography/
+│   │   └── shared/
+│   ├── index.css
+│   ├── stories/
+│   │   ├── Configure.mdx
+│   │   ├── assets/
+│   │   └── examples/
+│   └── theme/
+│       ├── index.ts
+│       └── tokens.ts
+├── storybook-static/  (This is typically a build output directory for Storybook)
+│   ├── assets/
+│   ├── sb-addons/
+│   ├── sb-common-assets/
+│   ├── sb-manager/
+│   ├── favicon.svg
+│   ├── iframe.html
+│   ├── index.html
+│   ├── index.json
+│   ├── nunito-sans-bold-italic.woff2
+│   ├── nunito-sans-bold.woff2
+│   ├── nunito-sans-italic.woff2
+│   ├── nunito-sans-regular.woff2
+│   └── project.json
+├── tailwind.config.ts
+└── vitest.config.js
+
+
+
+
 ```
 
 ---
