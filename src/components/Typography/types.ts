@@ -12,6 +12,10 @@ export interface BaseTypographyProps {
   className?: string
 }
 
+export interface LabelProps extends BaseTypographyProps {
+  htmlFor?: string
+}
+
 export interface HeadingProps extends BaseTypographyProps {
   as?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
 }

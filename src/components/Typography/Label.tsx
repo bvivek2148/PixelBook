@@ -1,4 +1,4 @@
-import { BaseTypographyProps } from './types'
+import { LabelProps } from './types'
 
 export const Label = ({
   children,
@@ -6,7 +6,8 @@ export const Label = ({
   weight = 'medium',
   align = 'left',
   className = '',
-}: BaseTypographyProps) => {
+  htmlFor,
+}: LabelProps) => {
   const baseClasses = [
     `text-${size}`,
     `font-${weight}`,
@@ -15,5 +16,5 @@ export const Label = ({
     className,
   ].join(' ')
 
-  return <label className={baseClasses}>{children}</label>
+  return <label className={baseClasses} htmlFor={htmlFor}>{children}</label>
 }

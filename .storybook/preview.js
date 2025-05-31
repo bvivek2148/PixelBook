@@ -1,6 +1,5 @@
 import React from 'react';
-import '../src/index.css'
-import { withThemeByClassName } from '@storybook/addon-styling';
+import '../src/index.css';
 
 const preview = {
   parameters: {
@@ -57,16 +56,7 @@ const preview = {
     docs: {
       title: 'PixelBook'
     }
-  },
-  decorators: [
-    withThemeByClassName({
-      themes: {
-        light: 'light',
-        dark: 'dark',
-      },
-      defaultTheme: 'light',
-    }),
-  ],
+  }
 }
 
 export default preview
